@@ -281,6 +281,6 @@ figure {
   color: #074697;
 }
 .comment-container {
-  border-left: 1px solid #7d7d7d; /* Warna garis dapat disesuaikan */
-  margin-left: 70px; /* Jarak antara garis dan tepi container */
+  border-left: 1px solid #7d7d7d;
+  margin-left: 70px;
 }
