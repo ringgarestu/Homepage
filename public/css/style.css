@@ -98,6 +98,7 @@ figure {
   margin: 0 auto;
   width: 480px;
   height: 100%;
+  margin-bottom: 80px;
 }
 .head-layout {
   position: relative;
@@ -221,7 +222,6 @@ figure {
 form {
   display: flex;
   align-items: center;
-  z-index: 1000;
 }
 
 .comment-input-wrapper {
@@ -230,13 +230,15 @@ form {
 }
 
 .comment-input {
-  width: 362px;
+  /* width:362px */
+  width: 300px;
   height: 54px;
   padding: 10px;
-  border: none;
+  border: #e3e3e3;
   background-color: #e3e3e3;
   border-radius: 100px;
   font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
 }
 
 .btn-comment {
@@ -244,12 +246,17 @@ form {
   color: #fff;
   border-radius: 100px;
   cursor: pointer;
-  z-index: 1001;
 }
 
 .comment-icon {
   width: 32px;
   height: 32px;
-  /* z-index: 1001; */
-  border-radius: 10px;
+  float: left;
+  position: absolute;
+  margin-left: 23px;
+  background-color: #e3e3e3;
+}
+
+::placeholder {
+  padding-left: 45px;
 }
